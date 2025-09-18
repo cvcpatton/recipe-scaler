@@ -15,24 +15,44 @@ Recipe Scaler - Capstone project for Java (CSC 1060-502)
 * Menu-driven interface with input validation
 
 **How to Run**
-```bash
+```
+bash
 javac RecipeScaler.java
 java RecipeScaler
 ```
 
 **Sample Usage**
 ```
-Enter number of ingredients: 3
-Enter original serving size: 4
-Enter desired serving size: 8
-Enter ingredient #1: 1 cup flour
-Enter ingredient #2: 2 eggs
-Enter ingredient #3: 0.5 cup sugar
+Please enter the total number of ingredients in your recipe: 3
+Please enter your recipe name: Grilled Cheese
 
---- Scaled Recipe (8 servings) ---
-2.0 cup flour
-4.0 eggs
-1.0 cup sugar
+For each ingredient, please enter each portion separately (e.g., “2”, “cups”, “flour”):
+beginning with the amount, then the unit of measurement, then the name of the ingredient.
+
+Please enter the amount in decimal form (not a fraction, common decimals are 1/2 = 0.5, 1/3 = 0.33, 2/3 = 0.66, 1/4 = 0.25, 3/4 = 0.75): 2
+Please enter the unit of measurement (e.g., cups, ounces, tablespoons): slices
+Please enter the name of the ingredient: bread
+
+Please enter the amount in decimal form (not a fraction, common decimals are 1/2 = 0.5, 1/3 = 0.33, 2/3 = 0.66, 1/4 = 0.25, 3/4 = 0.75): 2
+Please enter the unit of measurement (e.g., cups, ounces, tablespoons): slices
+Please enter the name of the ingredient: cheese
+
+Please enter the amount in decimal form (not a fraction, common decimals are 1/2 = 0.5, 1/3 = 0.33, 2/3 = 0.66, 1/4 = 0.25, 3/4 = 0.75): 2
+Please enter the unit of measurement (e.g., cups, ounces, tablespoons): tablespoons
+Please enter the name of the ingredient: butter
+
+Please enter the original serving size: 1
+Please enter your desired serving size: 4
+
+Thank you for using this recipe scaler program.
+Grilled Cheese (modified for 4 servings):
+
+8.00 slices bread
+8.00 slices cheese
+8.00 tablespoons butter
+
+Would you like to recalculate another recipe?
+Press 1 to begin entering your recipe information or press 0 to quit: 
 ```
 
 **Future Improvements (optional)**
