@@ -21,7 +21,7 @@ javac RecipeScaler.java
 java RecipeScaler
 ```
 
-**Sample Usage**
+**Sample Output**
 ![Recipe Scaler Screenshot](recipe-scaler-screenshot.jpg)
 
 **Possible Future Improvements**
